@@ -1,6 +1,6 @@
 //your code here!
 
-const main = document.querySelector('main');
+
 const ol = document.querySelector('#infi-list');
 
 let count = 1;
@@ -15,8 +15,8 @@ function addItems(n){
 
 addItems(10);
 
-main.addEventListener('scroll', () => {
-    if (main.scrollTop + main.clientHeight >= main.scrollHeight) {
+ol.addEventListener('scroll', () => {
+    if (ol.scrollTop + ol.clientHeight >= ol.scrollHeight) {
       addItems(2); 
     }
   });
