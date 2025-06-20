@@ -1,11 +1,15 @@
 #infi-list {
-  width: 200px;
-  height: 300px;
-  overflow: auto;
+ 
+  overflow:auto;
 
   margin: 30px;
   padding: 20px;
   border: 10px solid black;
+}
+main{
+	overflow:auto;
+	width:100%;
+	height:100vh;
 }
 li {
   padding: 10px;
